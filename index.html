@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg p-2 mb-2 bg-warning-subtle text-warning-emphasis position-sticky top-0">
+    <nav class="navbar navbar-expand-lg p-2 mb-2 bg-warning-subtle text-warning-emphasis position-sticky fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.png" alt="logo" width="100" height="80">
@@ -30,128 +30,142 @@
             </div>
         </div>
     </nav>
+    <main class="container mt-5">
+        <div>
+            <h1 class="text-center text-warning-emphasis p-5">Descubri una manera unica de disfurtar un buen café</h1>
+        </div>
+        <div>
+            <h2 class="text-center text-warning-emphasis p-3">Bienvenidos</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, reiciendis quod
+                vitae
+                laudantium
+                labore soluta accusamus veniam perspiciatis omnis harum dolor consectetur ex, voluptatum consequatur eos
+                inventore dolorum et minima.</p>
+        </div>
 
-    <div>
-        <h1 class="text-center text-warning-emphasis p-5">Descubri una manera unica de disfurtar un buen café</h1>
-    </div>
-    <div>
-        <h2 class="text-center text-warning-emphasis p-3">Bienvenidos</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, reiciendis quod vitae
-            laudantium
-            labore soluta accusamus veniam perspiciatis omnis harum dolor consectetur ex, voluptatum consequatur eos
-            inventore dolorum et minima.</p>
-    </div>
-
-    <div class="container-sm" id="seccion-carta">
-        <h2 class="text-center text-warning-emphasis m-5">Nuestro Café</h2>
-        <div class="row">
-            <div class="col border border-warning-subtle text-center p-3">
-                <img src="img/nosotros/expresso.jpg" alt="Expresso">
-                <h4 class="text-warning text-center">Expresso</h4>
-                <p class="text-start p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia
-                    molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
-                    accusantium eligend ullam cum ut?</p>
-            </div>
-            <div class="col border border-warning-subtle text-center p-3">
-                <img src="img/nosotros/cortado.jpg" alt="Cortado">
-                <h4 class="text-warning text-center">Cortado</h4>
-                <p class="text-start p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia
-                    molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
-                    accusantium eligend ullam cum ut?</p>
-            </div>
-            <div class="col border border-warning-subtle text-center p-3">
-                <img src="img/nosotros/americano.jpg" alt="Americano">
-                <h4 class="text-warning text-center">Americano</h4>
-                <p class="text-start p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia
-                    molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
-                    accusantium eligend ullam cum ut?</p>
-            </div>
-            <div class="col border border-warning-subtle text-center p-3">
-                <img src="img/nosotros/capuchino.jpg" alt="Capuchino">
-                <h4 class="text-warning text-center">Capuchino</h4>
-                <p class="text-start p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia
-                    molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
-                    accusantium eligend ullam cum ut?</p>
+        <div class="container-sm" id="seccion-carta">
+            <h2 class="text-center text-warning-emphasis m-5">Nuestro Café</h2>
+            <div class="row row-cols-2 row-cols-md-4 g-4">
+                <div class="col d-flex flex-column align-items-center text-center border border-warning-subtle p-3">
+                    <img src="img/nosotros/expresso.jpg" class="img-fluid mb-3" alt="Expresso">
+                    <h4 class="text-warning  mb-auto">Expresso</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                        mollitia
+                        molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
+                        accusantium eligend ullam cum ut?</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center text-center border border-warning-subtle p-3">
+                    <img src="img/nosotros/cortado.jpg" class="img-fluid mb-3" alt="Cortado">
+                    <h4 class="text-warning mb-auto">Cortado</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                        mollitia
+                        molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
+                        accusantium eligend ullam cum ut?</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center text-center border border-warning-subtle p-3">
+                    <img src="img/nosotros/americano.jpg" class="img-fluid mb-3" alt="Americano">
+                    <h4 class="text-warning mb-auto">Americano</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                        mollitia
+                        molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
+                        accusantium eligend ullam cum ut?</p>
+                </div>
+                <div class="col d-flex flex-column align-items-center text-center border border-warning-subtle p-3">
+                    <img src="img/nosotros/capuchino.jpg" class="img-fluid mb-3" alt="Capuchino">
+                    <h4 class="text-warning mb-auto">Capuchino</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                        mollitia
+                        molestiae error ipsa optio natus ipsum unde qui rerum neque magnam impedit, debitis aut tempore
+                        accusantium eligend ullam cum ut?</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container-sm" id="seccion-sucursales">
-        <h2 class="text-center text-warning-emphasis m-5">Nuestras Sucursales</h2>
-        <div class="row row-cols-1">
-            <div class="col border border-warning-subtle p-3">
-                <img class="col-4 img-fluid float-end" src="img/sucursales/sucursal 01.jpg" alt="Sucursal Santa Fe">
-                <h4 class="col-8 text-warning">Sucursal Santa Fe</h4>
-                <p class="col-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero! Ut
-                    cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod
-                    assumenda dolore consectetur?</p>
-            </div>
-            <div class="col border border-warning-subtle p-3">
-                <img class="col-4 img-fluid float-start me-5" src="img/sucursales/sucursal 02.jpg" alt="Sucursal Cordoba">
-                <h4 class="col-6 text-warning px-5">Sucursal Córdoba</h4>
-                <p class="col-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero! Ut cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod assumenda dolore consectetur?</p>
-            </div>
-            <div class="col border border-warning-subtle p-3">
-                <img class="col-4 img-fluid float-end" src="img/sucursales/sucursal 03.jpg" alt="Sucursal Buenos Aires">
-                <h4 class="col-8 text-warning">Sucursal Buenos Aires</h4>
-                <p class="col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero! Ut
-                    cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod
-                    assumenda dolore consectetur?</p>
-            </div>
-            <div class="col border border-warning-subtle p-3">
-                <img class="col-4 img-fluid float-start me-5" src="img/sucursales/sucursal 04.jpg" alt="Sucursal Mendoza">
-                <h4 class="col-6 text-warning">Sucursal Mendoza</h4>
-                <p class="col-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero! Ut
-                    cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod
-                    assumenda dolore consectetur?</p>
+        <div class="container-sm" id="seccion-sucursales">
+            <h2 class="text-center text-warning-emphasis m-5">Nuestras Sucursales</h2>
+            <div class="row row-cols-1">
+                <div class="col border border-warning-subtle p-3">
+                    <img class="col-4 img-fluid float-end" src="img/sucursales/sucursal 01.jpg" alt="Sucursal Santa Fe">
+                    <h4 class="col-8 text-warning">Sucursal Santa Fe</h4>
+                    <p class="col-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero!
+                        Ut
+                        cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod
+                        assumenda dolore consectetur?</p>
+                </div>
+                <div class="col border border-warning-subtle p-3">
+                    <img class="col-4 img-fluid float-start me-5" src="img/sucursales/sucursal 02.jpg"
+                        alt="Sucursal Cordoba">
+                    <h4 class="col-12 col-sm-8 text-warning px-5">Sucursal Córdoba</h4>
+                    <p class="col-12 col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero!
+                        Ut cum soluta est nostrum optio at nobis qui.</p>
+                </div>
+                <div class="col border border-warning-subtle p-3">
+                    <img class="col-4 img-fluid float-end" src="img/sucursales/sucursal 03.jpg"
+                        alt="Sucursal Buenos Aires">
+                    <h4 class="col-8 text-warning">Sucursal Buenos Aires</h4>
+                    <p class="col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero!
+                        Ut
+                        cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod
+                        assumenda dolore consectetur?</p>
+                </div>
+                <div class="col border border-warning-subtle p-3">
+                    <img class="col-4 img-fluid float-start me-5" src="img/sucursales/sucursal 04.jpg"
+                        alt="Sucursal Mendoza">
+                    <h4 class="col-12 col-sm-8 text-warning">Sucursal Mendoza</h4>
+                    <p class="col-12 col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat vero!
+                        Ut
+                        cum soluta est nostrum optio at nobis qui. Eos vero adipisci voluptatem ipsam consequuntur quod
+                        assumenda dolore consectetur?</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container-sm" id="seccion-contacto">
-        <div class="row row-cols-2">
-            <div class="col">
-                <h2 class="text-center text-warning-emphasis m-5">Contacto Rápido</h2>
-                <form action="" class="container d-flex flex-column mx-3 gap-2">
-                    <p>
-                        <label class="form-label" for="nombre">Nombre</label>
-                        <input class="form-control w-75" type="text">
-                    </p>
-                    <p>
-                        <label class="form-label" for="email">Email</label>
-                        <input class="form-control w-75" type="text">
-                    </p>
-                    <p>
-                        <label class="form-label" for="telefono">Telefono</label>
-                        <input class="form-control w-75" type="text">
-                    </p>
-                    <p class="row-cols-2">
-                        <label class="form-label" for="mensaje">Mensaje</label>
-                        <textarea class="p-5" name="" id="mensaje"></textarea>
-                    </p>
-                    <input class="btn btn-warning p-1 w-25" type="submit" value="Enviar">
-                </form>
-            </div>
+        <div class="container-sm" id="seccion-contacto">
+            <div class="row row-cols-2">
+                <div class="col col-12 col-md-6 mb-4">
+                    <h2 class="text-center text-warning-emphasis m-5">Contacto Rápido</h2>
+                    <form action="" class="container d-flex flex-column mx-3 gap-2 ">
+                        <p>
+                            <label class="form-label" for="nombre">Nombre</label>
+                            <input class="form-control w-75 " type="text">
+                        </p>
+                        <p>
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control w-75" type="text">
+                        </p>
+                        <p>
+                            <label class="form-label" for="telefono">Telefono</label>
+                            <input class="form-control w-75 " type="text">
+                        </p>
+                        <p class="row-cols-2">
+                            <label class="form-label" for="mensaje">Mensaje</label>
+                            <textarea class="p-5" name="" id="mensaje"></textarea>
+                        </p>
+                        <input class="btn btn-warning p-1 w-25" type="submit" value="Enviar">
+                    </form>
+                </div>
+            
 
-            <div class="col">
-                <h2 class="text-center text-warning-emphasis m-5">Otras vias de comunicación</h2>
-                <p>Tambien oueden contactarse con nosotros usando los siguientes medios</p>
-                <ul>
-                    <li>Teléfono: 3492-333333</li>
-                    <li>Email: contacto@cafeteriax.com.ar</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Skype</li>
-                </ul>
+                <div class="col-12 col-md-6">
+                    <h2 class="text-center text-warning-emphasis m-5">Otras vias de comunicación</h2>
+                    <p>Tambien oueden contactarse con nosotros usando los siguientes medios</p>
+                    <ul>
+                        <li>Teléfono: 3492-333333</li>
+                        <li>Email: contacto@cafeteriax.com.ar</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Skype</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-        <footer class="text-center bg-secondary p-4 mt-5">
-            <p>Diseñado por Yanina Navarro - &copy;2024</p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-            crossorigin="anonymous"></script>
+    </main>
+    <footer class="text-center bg-secondary p-4 mt-5">
+        <p>Diseñado por Yanina Navarro - &copy;2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

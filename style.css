@@ -11,3 +11,10 @@
 .row-cols-1 {
     gap: 32px;
 }
+
+#seccion-contacto textarea,
+.form-control{
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
