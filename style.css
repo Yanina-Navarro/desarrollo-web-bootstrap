@@ -1,0 +1,13 @@
+#seccion-carta img{
+    border: 50%;
+    max-width: 60%;
+}
+
+#seccion-sucursales img {
+    border-radius: 10px;
+    max-width: 150px;
+}
+
+.row-cols-1 {
+    gap: 32px;
+}
